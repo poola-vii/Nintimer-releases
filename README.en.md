@@ -6,7 +6,7 @@
 
 Even where you can't use a presenter view (such as PowerPoint's Presenter View), Nintimer puts a small, semi-transparent timer on top of your slides, on the same screen. You can see how much time is left without looking back and forth between your laptop and the screen.
 
-> **Nintimer is currently a free public beta.** If you notice anything, let us know through the support contact on the official website. Known problems are listed in [Known issues](known_issues.en.md). This repository is where the **portable version** of Nintimer is distributed. You can get the Microsoft Store version at <!-- TODO: Store link -->. The official website is <https://poola-vii.github.io/nintimer/index.en.html>.
+> **Nintimer is currently a free public beta.** If you notice anything, let us know through the support contact on the official website. Known problems are listed in [Known issues](known_issues.en.md). This repository is where the **portable version** of Nintimer is distributed. You can get the Microsoft Store version at <https://apps.microsoft.com/detail/9N7LCWZ81GSC>. The official website is <https://poola-vii.github.io/nintimer/index.en.html>.
 >
 > This repository is for distributing the portable version, and **it doesn't contain the source code of Nintimer** (the source code isn't public).
 
@@ -34,7 +34,7 @@ For other environments, see the table in [Known issues](known_issues.en.md).
 
 ### Microsoft Store version (recommended)
 
-<!-- TODO: Add the link after Nintimer is submitted to the Store -->
+<https://apps.microsoft.com/detail/9N7LCWZ81GSC>
 
 Search for "Nintimer" in the Microsoft Store and install it. The Store keeps it up to date. **On PCs with Smart App Control turned on, use the Microsoft Store version.**
 

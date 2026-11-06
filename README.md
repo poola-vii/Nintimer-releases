@@ -6,7 +6,7 @@
 
 発表者向けの画面（PowerPoint の発表者ビューなど）が使えない会場でも、スライドと同じ画面の隅に、小さな半透明のタイマーを最前面で重ねます。手元の画面とスクリーンのあいだで目を往復させずに、残り時間が分かります。
 
-> **いまは無料の公開βとして配っています。** 気づいたことがあれば、公式サイトの問い合わせ窓口からお知らせください。分かっている問題は[既知の問題](known_issues.md)にまとめています。ここは Nintimer の**ポータブル版**の配布元です。Microsoft Store 版は <!-- TODO: Store のリンク --> から入れられます。公式サイトは <https://poola-vii.github.io/nintimer/> です。
+> **いまは無料の公開βとして配っています。** 気づいたことがあれば、公式サイトの問い合わせ窓口からお知らせください。分かっている問題は[既知の問題](known_issues.md)にまとめています。ここは Nintimer の**ポータブル版**の配布元です。Microsoft Store 版は <https://apps.microsoft.com/detail/9N7LCWZ81GSC> から入れられます。公式サイトは <https://poola-vii.github.io/nintimer/> です。
 >
 > このリポジトリはポータブル版を配るためのもので、**Nintimer のソースコードは含みません**（ソースは非公開です）。
 
@@ -34,7 +34,7 @@
 
 ### Microsoft Store 版（おすすめ）
 
-<!-- TODO: Store に出したあとリンクを入れる -->
+<https://apps.microsoft.com/detail/9N7LCWZ81GSC>
 
 Microsoft Store で「Nintimer」を探して入れてください。更新は Store が行います。**Smart App Control がオンの PC では、Store 版をお使いください。**
 
