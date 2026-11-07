@@ -2,9 +2,11 @@
 
 [日本語](README.md)
 
-**A presentation timer that shows the time left in a corner of the screen you're projecting.**
+**A presentation timer that lets you keep track of time without getting distracted by it.**
 
-Even where you can't use a presenter view (such as PowerPoint's Presenter View), Nintimer puts a small, semi-transparent timer on top of your slides, on the same screen. You can see how much time is left without looking back and forth between your laptop and the screen.
+It sits small in a corner of the screen you're projecting, so you can check the time without looking away from the screen. It doesn't beep or flash when time is up, and it doesn't interfere with the keys you use to move between slides. If you enter start and end times, you don't even need to start it.
+
+You can use it even where you can't use a presenter view (such as PowerPoint's Presenter View).
 
 > **Nintimer is currently a free public beta.** If you notice anything, let us know through the support contact on the official website. Known problems are listed in [Known issues](known_issues.en.md). This repository is where the **portable version** of Nintimer is distributed. You can get the Microsoft Store version at <https://apps.microsoft.com/detail/9N7LCWZ81GSC>. The official website is <https://poola-vii.github.io/nintimer/index.en.html>.
 >
@@ -12,11 +14,12 @@ Even where you can't use a presenter view (such as PowerPoint's Presenter View),
 
 ## What it does
 
-- **Three timing modes** — A time limit (for example, 20 minutes), start and end times (for example, 13:00 to 13:30), or counting up.
-- **Colors and a progress bar** — Gray while waiting or stopped, white while timing, and red when time is up, with the overtime shown as `+03:05`. A bar shows how much time is left.
-- **Stays out of your way** — It doesn't take the keyboard focus, so your keys for moving between slides still go to your presentation app. It doesn't make sounds.
-- **Works during a full-screen slide show** — Right-click the timer to start, stop, or open Settings. Drag it to move it.
-- **Start over anytime** — If your presentation didn't actually start, right-click, select **Stop**, and then **Start over** to time again from zero.
+- **Stays out of your way** — It's small and semi-transparent, and it doesn't beep or flash when time is up. It shows only the time, colors, and a thin bar, with no words like "Waiting."
+- **No need to start it for a fixed time slot** — In Settings, enter start and end times, such as 13:00 to 13:30, and select **OK**. At 13:00, it starts timing on its own. The number shows the current time, and the thin bar shows how much time is left. Set it up during the break, and you won't forget to start it when your talk begins.
+- **Leaves your slide keys alone** — It doesn't take the keyboard focus, so your keys for moving between slides still go to your presentation app. You can control the timer with just your mouse.
+- **Works during a full-screen slide show** — Right-click the timer to start, stop, or open Settings. If it gets in the way, drag it somewhere else.
+- **For talks that don't go as planned** — With a time limit or counting up, if your presentation didn't actually start, right-click, select **Stop**, and then **Start over** to time again from zero. When you finish, select **Stop**, and the value at that moment stays on screen.
+- **Three timing modes** — A time limit (for example, 20 minutes), start and end times (for example, 13:00 to 13:30), or counting up. When time is up, the timer turns red, and with a time limit it counts the overtime, like `+03:05`.
 - **English and Japanese** — It follows the Windows display language, and you can also choose the language in Settings.
 
 ## Requirements
