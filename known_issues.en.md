@@ -36,6 +36,8 @@ Nintimer doesn't make a sound when time is up. It doesn't connect to the interne
 
 If you close Nintimer or restart your PC, the timing is lost, and Nintimer starts in the waiting state the next time. Your settings and the timer's position are kept.
 
+This also applies if you were using start and end times. After Nintimer starts again, the time window isn't active until you select **OK** in Settings. Until then, the timer shows the current time in gray, just as it does when an active time window is waiting for its start time, so you can't tell the two apart. Open Settings and select **OK** each time you start Nintimer again. The time window uses the date on which you select **OK**, so you can't set it up the day before.
+
 ## Things to watch out for
 
 ### The Microsoft Store version may close when the Store updates it
