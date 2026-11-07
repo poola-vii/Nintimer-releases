@@ -28,7 +28,7 @@ Nintimer appears in Japanese when the Windows display language is Japanese, and 
 
 **On Japanese Windows**, Nintimer appears in Japanese at first. To switch to English, right-click the timer or the system tray icon, select **設定...** (Settings; the only item that ends with three dots), set **言語 / Language** to **English**, and then select **OK**.
 
-### No sound, no network, no update notices
+### No sound when time is up, no network, no update notices
 
 Nintimer doesn't make a sound when time is up. It doesn't connect to the internet, and it doesn't tell you when a new version is available. The Microsoft Store keeps the Store version up to date. For the portable version, check the distribution site (https://github.com/poola-vii/Nintimer-releases ).
 
