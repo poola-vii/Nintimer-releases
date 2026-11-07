@@ -11,7 +11,7 @@ Dates are in Japan Standard Time. The Microsoft Store version and the portable v
 The first released version (public beta).
 
 - Shows a timer in a corner of the screen you're projecting, with three ways to time: a time limit, start and end times, or counting up.
-- Lets you stop the timer and start over from zero.
+- Lets you stop the timer and start over from zero when you use a time limit or count up.
 - Available as the Microsoft Store version and the portable version. Both are the same app.
 - Shows menus and Settings in English or Japanese. The language follows the Windows display language, and you can also choose it with **言語 / Language** in Settings.
 - **Terms, licenses, and download sources** in the system tray menu shows the Terms of Use, the Third-Party Notices, and the official download sources.
