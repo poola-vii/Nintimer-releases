@@ -74,7 +74,7 @@ If the value doesn't match, don't use the file.
 2. A small timer appears in the upper-right corner of the screen, and an icon appears in the system tray.
 3. Right-click the timer or the tray icon, select **Settings...**, set your time limit or times, and select **OK**.
 4. When your presentation starts, double-click the timer, or right-click it and select **Start**. (If you set start and end times, the time window starts when you select **OK**, so you don't need to start it.)
-5. When you finish, right-click and select **Stop**. The value at that moment stays on screen.
+5. When you finish, right-click and select **Stop**. The value at that moment stays on screen (with a time limit or counting up).
 
 ### Language
 
