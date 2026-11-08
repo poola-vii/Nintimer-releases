@@ -1,6 +1,6 @@
 # Known issues
 
-These are the known issues in Nintimer 1.0.1 (public beta), and the environments where it has been tested.
+These are the known issues in Nintimer 1.0.2 (public beta), and the environments where it has been tested.
 
 If you notice anything, let us know through the [support contact](https://poola-vii.github.io/nintimer/support.en.html). We'll add what we learn to this page.
 
@@ -8,15 +8,13 @@ If you notice anything, let us know through the [support contact](https://poola-
 
 These behaviors are intentional, and we don't plan to change them.
 
-### Stop doesn't let you resume
+### Resuming doesn't count the paused time
 
-When you select **Stop**, the value at that moment stays on screen in gray. If you then select **Start over**, the timer starts again **from zero, not from where it stopped** (from the full time limit, or from `00:00` when counting up). In Japanese, these menu items are 一時停止 and 開始.
-
-These commands are for starting over when a presentation didn't actually start, and for reading how long a presentation took. There's no command to continue from where the timer stopped.
+When you select **Pause**, the value at that moment stays on screen in gray. If you then select **Resume**, the timer continues from that value. **The paused time isn't counted**, so with a time limit the end moves later by that amount. If your event has a fixed end time, keep the timer running instead of pausing it. If you select **Start over**, the timer starts again from zero (from the full time limit, or from `00:00` when counting up). In Japanese, these menu items are 一時停止, 再開, and 最初から開始.
 
 ### Selecting OK in Settings restarts the timer
 
-If you select **OK** in Settings while the timer is running or stopped, that timing is discarded, and the timer goes back to waiting with the new settings (when you use start and end times, the new time window starts right away). **This also happens when you change the display language.** Choose the language and appearance settings before your presentation.
+If you select **OK** in Settings while the timer is running or paused, that timing is discarded, and the timer goes back to waiting with the new settings (when you use start and end times, the new time window starts right away). **This also happens when you change the display language.** Choose the language and appearance settings before your presentation.
 
 ### The audience can see the timer
 
@@ -34,9 +32,13 @@ Nintimer doesn't make a sound when time is up. It doesn't connect to the interne
 
 ### Timing isn't saved
 
-If you close Nintimer or restart your PC, the timing is lost, and Nintimer starts in the waiting state the next time. Your settings and the timer's position are kept.
+If you close Nintimer or restart your PC, timing with a time limit or counting up (including a paused value) is lost, and Nintimer starts in the waiting state the next time. Your settings and the timer's position are kept.
 
-This also applies if you were using start and end times. After Nintimer starts again, the time window isn't active until you select **OK** in Settings. Until then, the timer shows the current time in gray, just as it does when an active time window is waiting for its start time, so you can't tell the two apart. Open Settings and select **OK** each time you start Nintimer again. The time window uses the date on which you select **OK**, so you can't set it up the day before.
+If you use start and end times, the time window becomes active from your saved settings each time Nintimer starts.
+
+### Start and end times are treated as times of day
+
+The time window has no date. It starts timing at the start time on each day. After the time window ends, the timer stays red for the rest of that day, and when the date changes, it shows the next day's time window as waiting for its start (gray). So if you set up the next morning's time window the evening before, the timer is red that evening (because that day's time window has ended) and turns gray at midnight.
 
 ## Things to watch out for
 
@@ -70,14 +72,13 @@ The timer always stays on top, so it covers any part of this window that overlap
 
 ## Tested environments
 
-We tested the portable version and the Microsoft Store version on our own PC (Windows 11 Home, 64-bit, x64) with full-screen slide shows in LibreOffice Impress, on one display at 100%, 150%, and 200% scale. Before release, we installed the Microsoft Store version in developer mode to check how it shows over a full-screen slide show, that it starts, where it keeps settings, and that only one copy runs. We tested the English display with the language setting set to English, and with a user whose Windows display language is English (with that user, we didn't test it together with a full-screen slide show).
+We tested the portable version and the Microsoft Store version on our own PC (Windows 11 Home, 64-bit, x64) with full-screen slide shows in LibreOffice Impress, on one display at 100%, 150%, and 200% scale. Before release, we installed the Microsoft Store version in developer mode to check how it shows over a full-screen slide show, that it starts, where it keeps settings, and that only one copy runs. We tested the English display with the language setting set to English, and with a user whose Windows display language is English (with that user, we didn't test it together with a full-screen slide show). We also tested the portable version with full-screen PowerPoint slide shows on the PC the author uses for talks (at 100% scale): the timer didn't go behind the slides, and Space, →, ←, and Esc still controlled the slide show.
 
 The table below shows the status of other environments. "Not tested" means we haven't checked it yet.
 
 | Environment | Status |
 |:---|:---|
 | Windows 10 22H2 | Not tested |
-| PowerPoint slide shows | Not tested (we expect the timer to stay on top the same way, but we haven't checked) |
 | Different scales on different displays (for example, a laptop at 150% and a projector at 100%) | Not tested |
 | ARM PCs, 32-bit Windows | Not supported |
 | Installed from the Microsoft Store | Not tested (we'll check after release). Automatic updates from the Store are also not tested |
