@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-**Applies to: Nintimer 1.0.1 (Microsoft Store version and portable version)**
+**Applies to: Nintimer 1.0.2 (Microsoft Store version and portable version)**
 
 Nintimer includes the following third-party software. It's subject to the terms set by its provider. The notices its license requires are below.
 
