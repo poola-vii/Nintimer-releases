@@ -26,9 +26,9 @@ You can use it even where you can't use a presenter view (such as PowerPoint's P
 
 | | |
 |---|---|
-| OS | Tested on Windows 11 (64-bit, x64). ARM and 32-bit Windows aren't supported |
+| OS | Tested on Windows 11 (64-bit, x64) |
 | .NET | **Not required.** Everything it needs to run is included |
-| Presentation app | Tested with full-screen slide shows in LibreOffice Impress and PowerPoint (PowerPoint at 100% scale only) |
+| Presentation app | Tested with full-screen slide shows in LibreOffice Impress, and in PowerPoint at 100% scale |
 | Display scale | Tested at 100%, 150%, and 200% |
 
 For other environments, see the table in [Known issues](known_issues.en.md).
