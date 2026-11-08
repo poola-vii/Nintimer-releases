@@ -46,7 +46,7 @@ The time window has no date. It starts timing at the start time on each day. Aft
 
 When the Microsoft Store updates Nintimer, the running Nintimer may close. If this happens during a presentation, the timer disappears.
 
-The Store version's package declares that updates should be deferred while the app is in use. However, this declaration doesn't work on versions of Windows earlier than Windows 11 24H2, and we haven't confirmed that it works for Nintimer. We'll keep this issue listed until we have.
+The Store version's package declares that updates should be deferred while the app is in use. However, this declaration doesn't work on versions of Windows earlier than Windows 11 24H2.
 
 There are two ways to make sure Nintimer doesn't close during a presentation. Choose one:
 
@@ -73,12 +73,3 @@ The timer always stays on top, so it covers any part of this window that overlap
 ## Tested environments
 
 We tested the portable version and the Microsoft Store version on our own PC (Windows 11 Home, 64-bit, x64) with full-screen slide shows in LibreOffice Impress, on one display at 100%, 150%, and 200% scale. Before release, we installed the Microsoft Store version in developer mode to check how it shows over a full-screen slide show, that it starts, where it keeps settings, and that only one copy runs. We tested the English display with the language setting set to English, and with a user whose Windows display language is English. We also tested the portable version with full-screen PowerPoint slide shows on the PC the author uses for talks (at 100% scale): the timer didn't go behind the slides, and Space, →, ←, and Esc still controlled the slide show.
-
-The table below shows the status of other environments. "Not tested" means we haven't checked it yet.
-
-| Environment | Status |
-|:---|:---|
-| Windows 10 22H2 | Not tested |
-| Different scales on different displays (for example, a laptop at 150% and a projector at 100%) | Not tested |
-| ARM PCs, 32-bit Windows | Not supported |
-| Installed from the Microsoft Store | Not tested (we'll check after release). Automatic updates from the Store are also not tested |

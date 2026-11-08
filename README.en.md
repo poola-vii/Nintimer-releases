@@ -31,7 +31,7 @@ You can use it even where you can't use a presenter view (such as PowerPoint's P
 | Presentation app | Tested with full-screen slide shows in LibreOffice Impress, and in PowerPoint at 100% scale |
 | Display scale | Tested at 100%, 150%, and 200% |
 
-For other environments, see the table in [Known issues](known_issues.en.md).
+For details on the environments we've tested, see [Known issues](known_issues.en.md).
 
 ## Get Nintimer
 
