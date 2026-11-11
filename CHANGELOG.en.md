@@ -6,7 +6,7 @@ Dates are in Japan Standard Time. The Microsoft Store version and the portable v
 
 ---
 
-## 1.0.2 — Not yet released (the date is added on release)
+## 1.0.2 — 2026-11-11
 
 The first released version (public beta).
 
